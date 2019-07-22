@@ -35,12 +35,12 @@ public class EasyTable {
 			System.out.println("Wyswietlenie listy nowej tablicy\"temp\":"+Arrays.toString(temp));
 			int[]kopiaLiczb = Arrays.copyOf(liczby, liczby.length);
 			System.out.println("Kopia tablicy \"liczby\":"+Arrays.toString(kopiaLiczb));
-			int[]kopiaLiczbWiêkszaO5 = Arrays.copyOf(liczby, liczby.length+5);
-			System.out.println("Kopia wieksza o 5: "+Arrays.toString(kopiaLiczbWiêkszaO5));
-			kopiaLiczbWiêkszaO5[7]=5;
-			System.out.println("Przypisanie wartosci kopii w indexie nr 7:"+Arrays.toString(kopiaLiczbWiêkszaO5));
+			int[]kopiaLiczbWiÄ™kszaO5 = Arrays.copyOf(liczby, liczby.length+5);
+			System.out.println("Kopia wieksza o 5: "+Arrays.toString(kopiaLiczbWiÄ™kszaO5));
+			kopiaLiczbWiÄ™kszaO5[7]=5;
+			System.out.println("Przypisanie wartosci kopii w indexie nr 7:"+Arrays.toString(kopiaLiczbWiÄ™kszaO5));
 			System.out.println("Zmniejszenie tablicy");
-			int[]malaKopia=Arrays.copyOf(kopiaLiczbWiêkszaO5, 4);
+			int[]malaKopia=Arrays.copyOf(kopiaLiczbWiÄ™kszaO5, 4);
 			System.out.println(Arrays.toString(malaKopia));
 			
 			System.out.println("Wypelnianie tablicy:");
