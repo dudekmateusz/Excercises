@@ -1,11 +1,17 @@
 package objects.employees;
 
 public class Employee {
-	private static int nextId = 1;
+	private static int nextId;
 	
 	private String name;
 	private double salary;
-	private int id;
+	private int id = assignId();
+	
+	private static int assignId() {
+		int r = nextId;
+		nextId++;
+		return r;
+	}
 	
 	public Employee(String n, double s) {
 		name = n;
