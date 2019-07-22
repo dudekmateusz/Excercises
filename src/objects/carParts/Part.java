@@ -31,7 +31,18 @@ public class Part {
 	public void setSeriesNumber(int seriesNumber) {
 		this.seriesNumber = seriesNumber;
 	}
-	
+	public Part(int id, String producer, String model, int seriesNumber) {
+		super();
+		this.id = id;
+		this.producer = producer;
+		this.model = model;
+		this.seriesNumber = seriesNumber;
+	}
+	@Override
+	public String toString() {
+		
+		return "ID: " +getId()+", Producent: "+getProducer()+", Model: "+getModel()+", Numer seryjny produktu: "+getSeriesNumber();
+	}
 	
 
 }
